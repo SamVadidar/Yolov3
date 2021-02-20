@@ -122,6 +122,8 @@ def model_initialization(blocks):
     return darknet_details, modulelist
 
 
-blocks =  parse_cfg(config_file)
-details,modules = model_initialization(blocks)
-print(details)
+if __name__ == "__main__":
+    config_file = './config/yolov3.cfg'
+    blocks =  parse_cfg(config_file)
+    details,modules = model_initialization(blocks)
+    print(modules)
