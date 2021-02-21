@@ -8,7 +8,7 @@ def load_classes(class_file):
     return names
 
 # function converting images from opencv format to torch format
-def preprocess_image(img, inp_dim, CUDA, mode = 'video'):
+def preprocess_image(img, inp_dim, CUDA, mode = 'image'):
     """
     Prepare image for inputting to the neural network. 
     
@@ -78,12 +78,12 @@ print('Classes loaded')
 
 
 conf_inp_dim = int(model.net_info["height"])#608
-while(True):
+while(cap):
 
     retBool, frame = cap.read()
 
     # treading and resizing image
-    processed_image, original_image, original_img_dim = preprocess_image(frame,conf_inp_dim, CUDA)
+    processed_image, original_image, original_img_dim = preprocess_image(frame,conf_inp_dim, CUDA, mode='video')
     #print(processed_image.shape)
 
     im_dim = original_img_dim[0], original_img_dim[1]

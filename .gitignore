@@ -1,3 +1,6 @@
 links
 try.py
 weights/yolov*.*
+__pycache_*
+test_photo/
+yolov3-*
