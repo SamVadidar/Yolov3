@@ -2,8 +2,8 @@
 
 ## ToDo List
 
-[ ] Preprocessing on GPU
-[ ] Training pipeline
+- [ ] Preprocessing on GPU
+- [ ] Training pipeline
 
 ## Installation
 #### Clone and install requirements
