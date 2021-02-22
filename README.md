@@ -12,8 +12,8 @@
     $ source /path/to/new/virtual/environment/bin/activate
     Install dependencies:
     https://pytorch.org/get-started/locally/
-    $ sudo pip3 install -r requirements.txt
     $ cd Yolov3
+    $ sudo pip install -r requirements.txt
 
 #### Download pretrained weights
     $ cd weights
