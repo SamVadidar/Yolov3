@@ -10,6 +10,8 @@
     $ git clone https://github.com/SamVadidar/Yolov3
     $ python3 -m venv /path/to/new/virtual/environment
     $ source /path/to/new/virtual/environment/bin/activate
+Install dependencies:
+    $ https://pytorch.org/get-started/locally/
     $ sudo pip3 install -r requirements.txt
     $ cd Yolov3
 
