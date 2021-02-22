@@ -1,4 +1,4 @@
-# Yolov3
+# Yolov3_pytorch
 
 ## ToDo List
 
@@ -7,12 +7,12 @@
 
 ## Installation
 #### Clone and install requirements
-    $ git clone https://github.com/SamVadidar/Yolov3
+    $ git clone https://github.com/SamVadidar/Yolov3_pytorch
     $ python3 -m venv /path/to/new/virtual/environment
     $ source /path/to/new/virtual/environment/bin/activate
     Install dependencies:
     https://pytorch.org/get-started/locally/
-    $ cd Yolov3
+    $ cd Yolov3_pytorch
     $ sudo pip install -r requirements.txt
 
 #### Download pretrained weights
